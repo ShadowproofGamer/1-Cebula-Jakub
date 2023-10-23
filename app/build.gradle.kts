@@ -7,6 +7,10 @@ android {
     namespace = "com.example.a1_cebula_jakub"
     compileSdk = 33
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.a1_cebula_jakub"
         minSdk = 24
