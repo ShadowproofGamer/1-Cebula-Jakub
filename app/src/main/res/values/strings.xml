@@ -15,4 +15,14 @@
     <string name="radio3">Jadę do domu</string>
     <string name="radio4">Wiadomość poniżej</string>
     <string name="et_sms">Tu tekst do edycji…</string>
+
+
+    <!-- a3 -->
+    <string name="txt_name3">Name:</string>
+    <string name="txt_nick3">Nick:</string>
+    <string name="txt_email">Email:</string>
+    <string name="txt_phone3">Phone:</string>
+    <string name="init_et_name">Name</string>
+    <string name="init_et_nick">Nick</string>
+    <string name="button_back">Back</string>
 </resources>
