@@ -1,0 +1,18 @@
+<resources>
+    <!-- a1 -->
+    <string name="app_name">1-Cebula-Jakub</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_nick">Nick</string>
+    <string name="button_act1">Activity 1</string>
+    <string name="button_act2">Activity 2</string>
+    <string name="button_act3">Activity 3</string>
+
+    <!-- a2 -->
+    <string name="button_dial">Dial</string>
+    <string name="button_sms">SMS</string>
+    <string name="radio1">Zaraz oddzwonię</string>
+    <string name="radio2">Nie mogę rozmawiać</string>
+    <string name="radio3">Jadę do domu</string>
+    <string name="radio4">Wiadomość poniżej</string>
+    <string name="et_sms">Tu tekst do edycji…</string>
+</resources>

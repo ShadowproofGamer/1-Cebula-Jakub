@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal|top"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/txt_name"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_gravity="center_vertical"
+        app:srcCompat="@drawable/img_main" />
+
+    <TextView
+        android:id="@+id/txt_nick"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center_vertical|clip_horizontal"
+        android:gravity="center"
+        android:text="@string/txt_nick"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_act1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_act1" />
+
+        <Button
+            android:id="@+id/button_act2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_act2" />
+
+        <Button
+            android:id="@+id/button_act3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_act3" />
+    </LinearLayout>
+
+</LinearLayout>
