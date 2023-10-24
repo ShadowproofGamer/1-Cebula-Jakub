@@ -3,6 +3,7 @@ package com.example.a1_cebula_jakub
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import com.example.a1_cebula_jakub.databinding.Activity4Binding
 import com.example.a1_cebula_jakub.databinding.ActivityMainBinding
 
@@ -22,4 +23,5 @@ class Activity4 : AppCompatActivity() {
         }
 
     }
+
 }
